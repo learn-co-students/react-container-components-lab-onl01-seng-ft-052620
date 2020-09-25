@@ -29,7 +29,7 @@ export default [
     "headline": "Review: An Unflinching Portrayal of Impending Mortality in ‘Chronic’",
     "summary_short": "The first English-language film from Michel Franco, centering on a stoop-shouldered caregiver for terminally ill patients, ends with a blow to your equilibrium.",
     "publication_date": "2016-09-22",
-    "opening_date": null,
+    "opening_date": "2015-07-22",
     "date_updated": "2016-09-26 12:44:31",
     "link": {
       "type": "article",
@@ -51,7 +51,7 @@ export default [
     "headline": "Review: In ‘Closet Monster,’ a Teenager’s Self-Discovery Is Tinged With Danger",
     "summary_short": "An entrancing coming-of-age story about a young man at odds with his sexuality, and haunted by what he witnessed as a boy.",
     "publication_date": "2016-09-22",
-    "opening_date": null,
+    "opening_date": "2015-09-23",
     "date_updated": "2016-09-26 12:44:30",
     "link": {
       "type": "article",
