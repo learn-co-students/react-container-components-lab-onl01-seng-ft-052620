@@ -1,7 +1,6 @@
 import React from 'react'
 
 const MovieReview = ({reviewsLists}) => (
-
     <div className='review-list'>
 
     {reviewsLists.map(review => 
