@@ -23,7 +23,9 @@ class LatestMovieReviewsContainer extends Component{
     render(){
         return(
             <div className="latest-movie-reviews">
+                <strong>Latest Reviews:</strong>
                 <MovieReviews reviews={this.state.reviews} />
+                <h1>----------</h1>
             </div>
         )
     }
