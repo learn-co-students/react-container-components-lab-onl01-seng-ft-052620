@@ -10,16 +10,17 @@ const MovieReviews = (props) => {
         }
     }
     return(
-        <ul className='review-list'>
+        <ol className='review-list'>
             {checkUndefined(props.reviews) ? console.log('wait') : props.reviews.map(r => {
                 return (
                     <li className='review'>
-                        <h3>{r.display_title}</h3>
+                        <strong>{r.display_title}</strong>
                         <p>{r.summary_short}</p>
+                        {r.multimedia === null? <img src="https://developer.nytimes.com/files/thumb_movies_july-2020.jpg?v=1595646693286" alt="" srcset="" /> : <img src={r.multimedia.src} alt="" srcset="" />}
                     </li>
                 )
             })}
-        </ul>
+        </ol>
     )
 }
 
